@@ -9,7 +9,7 @@ on:
       kernel_branch:
         description: 'Kernel branch'
         required: true
-        default: 'lineage-23.0'
+        default: 'lineage-22.1'
       defconfig_file:
         description: 'Kernel defconfig filename'
         required: true
@@ -22,7 +22,7 @@ on:
       enable_susfs:
         description: 'Enable SUSFS patches'
         required: true
-        default: false
+        default: true
         type: boolean
       release_name:
         description: 'Release name for ZIPs'
